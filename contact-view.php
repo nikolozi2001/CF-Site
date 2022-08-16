@@ -54,17 +54,17 @@
         <form name="frmContact" id="" frmContact"" method="post" action="" enctype="multipart/form-data" onsubmit="return validateContactForm()">
 
             <div class="input-row">
-                <label>Name</label> <span id="userName-info" class="info"></span><br /> <input type="text" class="form-input" name="userName" id="userName" />
+                <label for="name"></label> <span id="userName-info" class="info"></span><br /> <input type="text" class="form-input" placeholder="Name" name="userName" id="userName" required/>
             </div>
             <div class="input-row">
-                <label>Email</label> <span id="userEmail-info" class="info"></span><br /> <input type="text" class="form-input" name="userEmail" id="userEmail" />
+                <label for="email"></label> <span id="userEmail-info" class="info"></span><br /> <input type="text" class="form-input" placeholder="Email" name="userEmail" id="userEmail" required/>
             </div>
             <div class="input-row">
-                <label>Subject</label> <span id="subject-info" class="info"></span><br /> <input type="text" class="form-input" name="subject" id="subject" />
+                <label for="subject"></label> <span id="subject-info" class="info"></span><br /> <input type="text" class="form-input" placeholder="Subject" name="subject" id="subject" required/>
             </div>
             <div class="input-row">
-                <label>Message</label> <span id="userMessage-info" class="info"></span><br />
-                <textarea name="content" id="content" class="description" cols="60" rows="6"></textarea>
+                <label for="message"></label> <span id="userMessage-info" class="info"></span><br />
+                <textarea name="content" id="content" class="description" placeholder="Text" cols="60" rows="6" required></textarea>
             </div>
             <div>
                 <input type="submit" name="send" class="send-button" value="Send" />
