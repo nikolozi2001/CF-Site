@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="shortcut icon" href="#" type="image/png"> -->
     <link rel="icon" type="image/png" href="https://www.geostat.ge/img/favicon.ico" />
     <title>Forms</title>
 </head>

@@ -15,22 +15,32 @@
     height: 325px;
     margin-top: 23px;
     background-image: url(../photos/logo.svg);
-    background-size: contain;
+    background-size: 1000px;
     background-repeat: no-repeat;
     background-position: center ;
 }
 .title{
-    color: blue;
+    margin-top: 22px;
+    color: #fff;
     font-family: 'Poppins';
     font-size: 42px;
     margin-bottom: 15px;
+}
+.container.flex{
+    background-color: #0080be;
+}
+ul.flex{
+    margin-left: 18px;
+}
+.map.container{
+    margin-top: -60px;
 }
 nav{
     margin-top: -20px;
 }
 .nav-a{
     font-size: 14px;
-    color: blue;
+    color: #fff;
     font-family: 'Poppins';
 
 }
