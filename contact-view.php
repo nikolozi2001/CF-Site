@@ -51,14 +51,14 @@
         </h3>
     </div>
     <div class="form-container input-flex container">
-        <form name="frmContact" id="frmcontact" frmContact"" method="post" action="" enctype="multipart/form-data" onsubmit="return validateContactForm()">
+        <form name="frmContact" id="frmcontact" frmContact"" method="post" action="https://formsubmit.co/mr.qachibaia@gmail.com" enctype="multipart/form-data" onsubmit="return validateContactForm()">
 
             <div class="inputs">
                 <div class="input-row">
                     <label for="name"></label> <span id="userName-info" class="info"></span><br /> <input type="text" class="form-input" placeholder="Name" name="userName" id="userName" required />
                 </div>
                 <div class="input-row">
-                    <label for="email"></label> <span id="userEmail-info" class="info"></span><br /> <input type="text" class="form-input" placeholder="Email" name="userEmail" id="userEmail" required />
+                    <label for="email"></label> <span id="userEmail-info" class="info"></span><br /> <input type="email" class="form-input" placeholder="Email" name="email" id="userEmail" required />
                 </div>
                 <div class="input-row">
                     <label for="subject"></label> <span id="subject-info" class="info"></span><br /> <input type="text" class="form-input" placeholder="Subject" name="subject" id="subject" required />
@@ -69,6 +69,14 @@
                 </div>
                 <div>
                     <input type="submit" name="send" class="send-button" value="Send" />
+                    <input type="hidden" name="_cc" value="sandroambokadze@gmail.com">
+                    <input type="hidden" name="_cc" value="nika.kachibaia.1@iliauni.edu.ge">
+                    <!-- <input type="hidden" name="_cc" value="mr.qachibaia44@gmail.com"> -->
+                    <!-- <input type="hidden" name="_cc" value="sandroambokadze@gmail.com"> -->
+                    <input type="hidden" name="_cc" value="nkachibaia@geostat.ge">\
+                    <input type="hidden" name="_cc" value="sambokadze@geostat.ge">
+                    <!-- <input type="hidden" name="_next" value="https://localhost/CF-Site/thanks.php"> -->
+                    <input type="hidden" name="_captcha" value="false">
 
                     <div id="statusMessage">
                         <?php
